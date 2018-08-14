@@ -1,6 +1,6 @@
 {
   "name": "simple-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple color operations and abstractions.",
   "module": "dist/index.js",
   "scripts": {
