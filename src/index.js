@@ -1,6 +1,6 @@
 // @flow
 
-opaque type HSLAColor = {
+type HSLAColor = {
   type: 'HSLA',
   hue: number,
   saturation: number,
@@ -8,7 +8,7 @@ opaque type HSLAColor = {
   alpha: number,
 };
 
-opaque type RGBAColor = {
+type RGBAColor = {
   type: 'RGBA',
   red: number,
   green: number,
