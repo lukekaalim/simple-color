@@ -1,0 +1,26 @@
+{
+  "name": "simple-color",
+  "version": "1.0.0",
+  "description": "Simple color operations and abstractions.",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "npm run build:copy-flow && npm run build:strip-flow",
+    "build:copy-flow": "flow-copy-source src dist",
+    "build:strip-flow": "flow-remove-types src/ --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukekaalim/simple-color.git"
+  },
+  "author": "luke kaalim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukekaalim/simple-color/issues"
+  },
+  "homepage": "https://github.com/lukekaalim/simple-color#readme",
+  "devDependencies": {
+    "flow-copy-source": "^2.0.2",
+    "flow-remove-types": "^1.2.3"
+  }
+}
